@@ -1,11 +1,27 @@
 {
   "name": "css-tool-propsorter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ferramenta de linha de comando que ordena propriedades CSS",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtaw/css-tool-propsorter"
+  },
+  "keywords": [
+    "css",
+    "tool",
+    "organizer",
+    "sorting",
+    "command-line"
+  ],
+  "author": "MIT",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

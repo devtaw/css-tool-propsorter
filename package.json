@@ -1,11 +1,11 @@
 {
-  "name": "css-tool-propsorter",
+  "name": "@devtaw/css-tool-propsorter",
   "version": "1.0.0",
   "description": "Ferramenta de linha de comando que ordena propriedades CSS",
   "type": "module",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./app.js",
     "test": "jest"
   },
   "repository": {
@@ -19,8 +19,8 @@
     "sorting",
     "command-line"
   ],
-  "author": "MIT",
-  "license": "ISC",
+  "author": "Tawany Simões <tawm.dev@gmail.com> (https://devtaw.github.io/personal-presentation-taw/)",
+  "license": "MIT",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }

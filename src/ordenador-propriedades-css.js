@@ -1,5 +1,9 @@
 class OrdenadorPropriedadesCss {
-  constructor() {}
+  propriedadesCss;
+
+  constructor() {
+    this.propriedadesCss = [];
+  }
 
   validarEntradaCss(entradaCss) {
     const entradaEhString = /^[a-zA-Z\-]+$/.test(entradaCss);
@@ -13,6 +17,15 @@ class OrdenadorPropriedadesCss {
     }
 
     return true;
+  }
+
+  adicionarPropriedadeCss(propriedadeCss) {
+    this.propriedadesCss.push(propriedadeCss.toUpperCase());
+  }
+
+  mostrarPropriedadesCssOrdenadas() {
+    this.propriedadesCss.sort();
+    this.propriedadesCss.forEach((propriedadesCss) => console.log(propriedadesCss.toLowerCase()));
   }
 }
 

@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "Ferramenta de linha de comando que ordena propriedades CSS",
   "type": "module",
-  "main": "app.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./app.js",
-    "test": "jest"
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",

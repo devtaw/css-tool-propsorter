@@ -6,6 +6,7 @@ function pedePropriedadeCss() {
   const entradaCss = readline.question(chalk.blue("Insira uma única propriedade CSS ou 'SAIR' para encerrar: "));
 
   if (entradaCss.toUpperCase() === "SAIR") {
+    ordenador.mostrarPropriedadesCssOrdenadas();
     return false;
   }
 
